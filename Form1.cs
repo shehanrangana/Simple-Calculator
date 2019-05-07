@@ -86,6 +86,11 @@ namespace Simple_Calculator
             }
         }
 
+        private void TxtDisplay2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void Operation_Click(object sender, EventArgs e)
         {
             Button opr = sender as Button;
